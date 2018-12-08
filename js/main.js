@@ -1,12 +1,18 @@
 $(document).ready(function () {
+
     $(".btn").click(function () {
+        let title = $("#bookTitle").val();
         let subtitle = $("#bookSubTitle").val();
-        let author = $("#authorName").val();
         let publisher = $("#publisher").val();
+        let author = $("#authorName").val();
         let published_year = $("#yearPicker").val();
         let background = $("#backgroundPicker").val();
 
-        $(".foo").text($("#bookTitle").val());
+        $("#titleView").text(title);
+        $("#subtitleView").text(subtitle);
+        $("#publisherView").text(publisher);
+        $("#authorView").text(author);
+        $("#yearView").text(published_year);
         $(".background").css("background-color", background);
     });
 });
