@@ -1,0 +1,49 @@
+/* global */
+body{
+    height: 100vh;
+}
+
+.col-6, .col-4{
+    padding-left: 0;
+}
+
+/* end global */
+
+/* start main section*/
+.slogan small{
+    color:#FFF;
+    text-align: center;
+}
+
+.input-section{
+    border-right: 1px solid;
+}
+
+.input-section form .btn{
+    text-align: center;
+}
+
+.view-section {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+}
+
+.view-section .background{
+    background-color: red;
+    width: 50%;
+    height: 80%;
+    margin: auto;
+}
+/* end main section */
+
+/* start footer */
+
+footer{
+    color: #333;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cover Designer - The App</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cover Designer</a>
+        <div class="slogan">
+            <small>
+                "generate your awesome cover"
+            </small>
+        </div>
+    </nav>
+
+    <br>
+
+    <main class="container">
+        <div class="row">
+            <div class="input-section col-md-6">
+                <form>
+                    <div class="form-group">
+                        <label for="bookTitle">Book Title</label>
+                        <input type="text" class="form-control" id="bookTitle" placeholder="Enter book title">
+                    </div>
+                    <div class="form-group">
+                        <label for="bookSubTitle">Book Subtitle</label>
+                        <input type="text" class="form-control" id="bookSubTitle" placeholder="Enter book subtitle">
+                    </div>
+                    <div class="form-group">
+                        <label for="authorName">Author</label>
+                        <input type="text" class="form-control" id="authorName" placeholder="Enter book author">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="publisher">Publisher</label>
+                            <input type="text" class="form-control" id="publisher" placeholder="Enter publisher name">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="yearPicker">Publishing Year</label>
+                            <input type="number" min="2018" max="2099" step="1" value="2018" class="form-control" id="yearPicker"
+                                placeholder="Enter published year">
+                        </div>
+                    </div>
+                    <div class="form-group col-4">
+                        <label for="backgroundPicker">Background Color</label>
+                        <input type="color" class="form-control" id="backgroundPicker">
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary align-middle">Generate</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="view-section col-md-6">
+                <div class="background">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="foo">Title</h1>
+                    <h3>Subtitle</h3>
+                    <br>
+                    <br>
+                    <h5>Publisher</h5>
+                    <br>
+                    <h5>Author</h5>
+                    <h6>Year</h6>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2018, All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
